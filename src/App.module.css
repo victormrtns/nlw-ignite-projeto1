@@ -1,0 +1,14 @@
+.wrapper{
+    max-width: 70rem;
+    /* Margin pra manter centralizado conforme a diminuição */
+    margin: 2rem auto;
+    /* Espacamento interno pra manter centralizado */
+    padding: 0 1rem;
+    display:grid;
+    /* sidebar no primeiro e caixa no segundo */
+    grid-template-columns: 256px 1fr;
+    gap: 2rem;
+    /* Alinhado pro topo */
+    align-items: flex-start;
+
+}
